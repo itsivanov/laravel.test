@@ -1,0 +1,43 @@
+{
+  "name": "hieu-le/laravel-dashboard",
+  "description": "A starting template for Laravel 5 dashboards",
+  "keywords": [
+    "laravel",
+    "dashboard",
+    "template",
+    "admin control panel"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hieu Le",
+      "email": "letrunghieu.cse09@gmail.com",
+      "homepage": "https://www.hieule.info"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "laravel/framework": "^5.1",
+    "hieu-le/active": "^3.0",
+    "hieu-le/laravel-alert": "^2.0",
+    "hieu-le/laravel-menu": "^1.0",
+    "hieu-le/body-classes": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "mockery/mockery": "dev-master",
+    "codeclimate/php-test-reporter": "dev-master",
+    "davejamesmiller/laravel-breadcrumbs": "^3.0",
+    "orchestra/testbench": "^3.1"
+  },
+  "suggest": {
+    "davejamesmiller/laravel-breadcrumbs": "Display breadcrumbs in the layout."
+  },
+  "autoload": {
+    "psr-4": {
+      "HieuLe\\LaravelDashboard\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
